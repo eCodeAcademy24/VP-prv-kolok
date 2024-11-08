@@ -1,4 +1,4 @@
-# Event Booking Application
+# Movies Application
 
 ## Опис на проектот
 
