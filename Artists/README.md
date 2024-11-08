@@ -1,4 +1,4 @@
-# Event Booking Application
+# Artists Application
 
 ## Опис на проектот
 
