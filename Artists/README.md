@@ -50,7 +50,7 @@ List<Artist> performers;
 public interface SongService {
     List<Song> listSongs();
 
-    Artist addArtistToSong(Long artistId, Song song);
+    Song addArtistToSong(Long artistId, String trackId);
 
     Song findByTrackId(String trackId);
 }
