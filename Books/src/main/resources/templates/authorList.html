@@ -38,7 +38,7 @@
 <section>
     <h2>Select author:</h2>
     <!-- Make changes to this code to dynamically display radio buttons for each author as in the example -->
-    <form th:action="@{/author}" th:method="post">
+    <form th:action="@{/authors}" th:method="post">
         <div th:each="author : ${authors}">
             <input type="radio" name="authorId" th:value="${author.getId()}"/>
             <label th:text="${author.getName()} + ' ' + ${author.getSurname()}"></label>
