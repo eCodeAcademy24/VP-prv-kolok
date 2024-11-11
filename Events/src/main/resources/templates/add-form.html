@@ -51,10 +51,10 @@
         <div class="form-group">
             <label>Category</label>
             <select name="locationId" class="form-control">
-                <option th:if="${product} == null"
-                        th:each="cat : ${categories}"
-                        th:value="${cat.getId()}"
-                        th:text="${cat.getName()}">
+                <option th:if="${event} == null"
+                        th:each="location : ${locations}"
+                        th:value="${location.getId()}"
+                        th:text="${location.getName()}">
                 </option>
                 <option th:if="${event} != null"
                         th:selected="${event.getLocation() != null &&
